@@ -112,3 +112,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Propios
+.vscode/
+
+..pytest_cache/
