@@ -10,14 +10,13 @@ from src.main import Calc
 
 class Mis_tests(unittest.TestCase):
     def test_suma(self):
-        self.assertEqual(Calc().sumar(2, 2), 4)
+        self.assertEqual(Calc().sumar(4, 3), 7)
 
     def test_resta(self):
         self.assertFalse(Calc().resta(1, 1) == 1)
 
     def test_multi(self):
         self.assertTrue(Calc().multi(3, 3) == 9)
-
 
     if __name__ == '__main__':
         unittest.main()
