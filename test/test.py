@@ -17,6 +17,9 @@ class Mis_tests(unittest.TestCase):
 
     def test_multi(self):
         self.assertTrue(Calc().multi(3, 3) == 9)
+    
+    def test_pot(self):
+        self.assertEqual(Calc().pot(5, 2), 25)
 
     if __name__ == '__main__':
         unittest.main()
