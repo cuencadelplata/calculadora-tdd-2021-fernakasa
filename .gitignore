@@ -118,3 +118,18 @@ dmypy.json
 .vscode/
 
 .pytest_cache/
+test/__pycache__/test.cpython-37.pyc
+zope/pyvenv.cfg
+zope/Scripts/activate
+zope/Scripts/activate.bat
+zope/Scripts/Activate.ps1
+zope/Scripts/deactivate.bat
+zope/Scripts/easy_install-3.9.exe
+zope/Scripts/easy_install.exe
+zope/Scripts/pip.exe
+zope/Scripts/pip3.9.exe
+zope/Scripts/pip3.exe
+zope/Scripts/python.exe
+zope/Scripts/pythonw.exe
+test/__pycache__/test.cpython-37.pyc
+*.pyc
